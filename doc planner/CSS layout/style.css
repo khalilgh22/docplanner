@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  
+}
+img {
+  width: 15%;
+}
+ul {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #747474;
+}
+a:focus {
+  color: #00b39b;
+}
+
+#color-about-us {
+  color: #00b39b;
+}
+#logo {
+  display: flex;
+  position: absolute;
+  transform: translate(1900%, 120%);
+  width: 2.5%;
+}
+.title {
+  display: flex;
+  position: absolute;
+  transform: translate(65%, 195%);
+  color: #00b39b;
+}
+#first-parg {
+  display: flex;
+  position: absolute;
+  transform: translate(55%, 150%);
+  width: 30%;
+  line-height: 2rem;
+  color: #747474;
+}
+#second-parg {
+  display: flex;
+  position: absolute;
+  transform: translate(175%, 150%);
+  width: 30%;
+  line-height: 2rem;
+  color: #747474;
+}
+.container {
+  position: relative;
+
+  width: 1200px;
+  height: 500px;
+  margin: 400px auto;
+}
+.container .box {
+  position: relative;
+  width: calc(350px - 30px);
+  height: calc(410px - 30px);
+  background: #00b39b;
+  float: left;
+  left: 75px;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container .box1 {
+  background-color: #3d83df;
+  position: relative;
+  width: calc(350px - 30px);
+  height: calc(410px - 30px);
+  float: left;
+  left: 75px;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container .box2 {
+  background-color: #333;
+  position: relative;
+  width: calc(350px - 30px);
+  height: calc(410px - 30px);
+  float: left;
+  left: 75px;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#patients {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+}
+#parg-patients {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+  font-size: 160%;
+  line-height: 2.5rem;
+}
+#im1 {
+  display: flex;
+  position: relative;
+  top: -43%;
+  left: 10%;
+  width: 10%;
+}
+#doctors {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+}
+
+#parg-doctors {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+  font-size: 130%;
+  line-height: 2.5rem;
+}
+
+#im2 {
+  display: flex;
+  position: relative;
+  top: -33%;
+  left: 10%;
+  width: 10%;
+}
+#clinics {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+}
+
+#parg-clinics {
+  display: flex;
+  position: relative;
+  color: white;
+  left: 10%;
+  top: 15%;
+  font-size: 130%;
+  line-height: 2.5rem;
+}
+
+#im3 {
+  display: flex;
+  position: relative;
+  top: -33%;
+  left: 10%;
+  width: 10%;
+}
+#country-switcher {
+  display: flex;
+  position: relative;
+  top: 30%;
+  left: 10%;
+  background-color: transparent;
+  color: aliceblue;
+  border: 0;
+}
+option {
+  color: black;
+}
